@@ -1,13 +1,3 @@
-/* 
-Criptografar o texto informado pelo usuario e também permitir a
-descritografia;
-*/
-
-/* Camada de regras
-- Não são permitidos caracteres especiais (á, é, @, %, ç, etc..)
-- Não são permitidas letras maiúsculas
-*/
-
 const listaCaracteres = [
     ['a', 'ai'],
     ['e', 'enter'],
@@ -69,7 +59,6 @@ function descriptografarTexto() {
     var campoMensagem = document.querySelector(".mensagem");
     var textoDescriptografado = campoDeTexto.value;
 
-    //identificar os caracteres codificados dentro do texto.
     for(let i = 0; i <= listaCaracteres.length-1; i++) {
        if(textoDescriptografado.includes(listaCaracteres[i][1])) {
             textoDescriptografado = textoDescriptografado.replaceAll(listaCaracteres[i][1], listaCaracteres[i][0]);
@@ -121,7 +110,3 @@ function copiarTexto() {
         alert('Texto copiado para a área de transferência!');
     });
 }
-   
-
-// newCript();
-

@@ -10,8 +10,6 @@ txtAreas.addEventListener('input', function(){
             this.rows -= 1
         }
 
-    } else {
-        // Código para dispositivos web
     }
 });
 function adjustText() {
