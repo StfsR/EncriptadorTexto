@@ -1,0 +1,212 @@
+/* For Tablet View */
+@media screen and (min-device-width: 768px) 
+    and (max-device-width: 1024px) {
+    html {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        color: #FFF;
+        background-color: #F3F5FC;
+        padding: 40px;
+    }
+
+    .logoAlura {
+        width: 3%;
+        height: 4%;
+    }
+
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+
+    .error-box {
+        margin-top: 10px;
+        height: 40px;
+        min-width: 500px;
+        background-color: rgba(255, 0, 0, 0.35);
+        border-radius: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        position:absolute;
+        display: none;
+        align-items: center;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .error-message {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .text-area-principal {
+        color: #0a3871;
+        background-color: transparent;
+        font-size: 32px;
+        width: 100%;
+        min-height: 548px;
+        border: none;
+        resize: none;
+        margin-top: 56px;
+        margin-bottom: 64px;
+    }
+
+    .text-area-principal::placeholder {
+        color: #0A3871;
+    }
+
+    .text-area-principal:focus {
+        outline: none;
+    }
+
+    .informacao {
+        display: flex;
+        flex-direction: row;
+        row-gap: 8px;
+    }
+
+    .informacao p {
+        color: #45565F;
+        font-weight: 400;
+        line-height: 18px;
+        font-size: 12px;
+    }
+
+    .informacao img {
+        margin-right: 8px;
+    }
+
+
+    .botoes {
+        margin-top: 18px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        gap: 24px;
+        width: 100%;
+        margin-bottom: 64px;
+    }
+    
+    .btn-desencriptar {
+        background: transparent;
+        border: 1px solid #0a3871;
+        border-radius: 24px;
+        color: #0a3871;
+        cursor: pointer;
+        height: 67px;
+        font-size: 16px;        
+        min-width: 332px;
+        width: 100%;
+    }
+
+    .btn-desencriptar:hover {
+        background: #D8DFE8;
+    }
+
+    .btn-encriptar {
+        background-color: #0a3871;
+        border: 1px solid #0a3871;
+        border-radius: 24px;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+        height: 67px;
+        min-width: 332px;
+        width: 100%;
+    }
+
+    .btn-encriptar:hover {
+        background-color: #072B61;
+    }
+
+    .output {
+        box-sizing: border-box;
+        background-color: white;
+        border-radius: 24px;
+        height: auto;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+        padding: 32px;
+    }
+
+    .mensagem {
+        box-sizing: border-box;
+        border: none;
+        background-color: transparent;
+        height: auto;
+        width: 100%;
+        resize: none;
+        font-size: 32px;
+        padding-bottom: 32px;
+        color: #072B61;
+        overflow:hidden;
+    }
+
+    .mensagem:focus{
+        outline: none;
+    }
+
+    .start-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+
+    .btn-copiar {
+        box-sizing: border-box;
+        border: 1px solid #0a3871;
+        border-radius: 24px;
+        color: #0a3871;
+        cursor: pointer;
+        font-size: 16px;
+        background-color: white;
+        height: 67px;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .btn-copiar:hover {
+        background: #D8DFE8;
+    }
+
+    .start-box {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 32px;
+    }
+    
+    .titulo {
+        color: #343A40;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+        margin-bottom: 16px;
+    }
+
+    .descricao {
+        color: #495057;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        padding-left: 32px;
+        padding-right: 32px;
+        padding-bottom: 32px;
+    }
+
+    .start-box img {
+        display: none;
+    }
+}

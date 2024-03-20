@@ -1,0 +1,211 @@
+* {
+    font-family: 'Inter', sans-serif;
+}
+/* For Desktop View */
+@media screen and (min-width: 1024px) {
+    * {
+        font-weight: 400;
+        font-size: 32px;
+        line-height: 150%;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    html {
+        margin: 0;
+    }
+    
+    body {
+        color: #fff;
+        background-color: #F3F5FC;
+        margin: 0;
+        padding: 0;
+        justify-content: center;  
+    }
+    
+    .logoAlura {
+        margin-top: 40px;
+        margin-left: 40px;
+        padding-left: 44px;
+        padding-right: 45px;
+        width: 31px;
+    }
+
+    .main-container {
+        display: flex;  
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .error-box {
+        height: 60px;
+        width: 550px;
+        background-color: rgba(255, 0, 0, 0.35);
+        border-radius: 10px;
+        padding-left: 16px;
+        padding-right: 16px;
+        position:absolute;
+        display: none;
+        align-items: center;
+    }
+
+    .error-message {
+        color: #FFF;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .text-area-principal {
+        border: none;
+        color: #0a3871;
+        height: 77%;
+        background-color: transparent;
+        resize: none;
+        overflow: auto;
+        margin-top: 80px;
+        max-height: 780px;
+    }
+
+    ::placeholder { 
+        color: #0a3871; 
+    }
+
+    .text-area-principal:focus {
+        outline: none;
+    }
+        
+    .informacao {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        row-gap: 8px;
+    }
+
+    .informacao img {
+        margin-right: 8px;
+    }
+
+    .informacao p {
+        color: #45565F;
+        font-size: 12px;
+        align-content: center;
+    }
+
+    .output {
+        border: none;
+        background-color: white;
+        border-radius: 24px;
+        margin-left: 98px;
+        width: 336px;
+        height: 944px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 32px;
+        padding: 32px;
+        box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    }
+
+    .mensagem {
+        color: #0a3871;
+        width: 100%;
+        height: 100%;
+        border: none;
+        resize: none;
+    }
+
+    .mensagem:disabled {
+        background-color: white;
+    }
+
+    .mensagem:focus{
+        outline: none;
+    }
+
+    .start-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+        justify-self: center;
+        margin-top: 50%;
+    }
+
+    .titulo {
+        color: #343A40;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28.8px;
+        text-align: center;
+        padding-top: 32px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .descricao {
+        color: #495057;
+        font-size: 16px;
+        font-weight: 400px;
+        line-height: 24px;
+        text-align: center;
+        padding-top: 16px;
+        padding-left: 32px;
+        padding-right: 32px;
+
+    }
+
+    .botoes {
+        display: flex;
+        margin-bottom: 32px;
+    }
+
+    .btn-desencriptar {
+        background: transparent;
+        border: 1px solid #0a3871;
+        border-radius: 24px;
+        color: #0a3871;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        font-size: 16px;
+        width: 328px;
+    }
+    .btn-desencriptar:hover {
+        background: #D8DFE8;
+    }
+
+    .btn-encriptar {
+        background-color: #0a3871;
+        border: 1px solid #0a3871;
+        border-radius: 24px;
+        font-size: 16px;
+        color: white;
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+    }
+
+    .btn-encriptar:hover {
+        background-color: #072B61;
+    }
+
+    .btn-copiar {
+        border: 1px solid #0a3871;
+        border-radius: 24px;
+        color: #0a3871;
+        cursor: pointer;
+        font-size: 16px;
+        background-color: white;
+        height: 67px;
+        width: 336px;
+    }
+
+    .btn-copiar:hover {
+        background-color: #EFF1FA;
+        color: #0a3871;
+    }
+
+}
