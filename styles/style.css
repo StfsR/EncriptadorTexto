@@ -1,7 +1,7 @@
 * {
     font-family: 'Inter', sans-serif;
 }
-/* For Desktop View */
+
 @media screen and (min-width: 1024px) {
     * {
         font-weight: 400;
